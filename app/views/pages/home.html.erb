@@ -3,7 +3,7 @@
     <div class="nav-bar">
       <div class="logo d-flex">
         <div><%= cl_image_tag "icon_app_transp-01_wbb1xi.png", :width=>70, :crop=>"scale" %></div>
-        <h1 class="d-flex align-items-center">Pay 'n Go</h1>
+        <h1 class="d-flex align-items-center" style="font-size: 2em;">Pay 'n Go</h1>
       </div>
       <div class="btn-nav-bar">
         <ul>
@@ -15,17 +15,41 @@
         </ul>
       </div>
     </div>
-    <div style="margin-bottom: 30em; margin-left: 70px;">
+    <div style="margin-bottom: 24em; margin-left: 70px;">
       <div class="tittle">
-        <div><h1 style="font-weight: bold; font-size: 3em">Let's move forward</h1></div>
-        <div><h1 style="font-weight: bold; font-size: 3em">Let's pay cashless</h1></div>
+        <div><h1 style="font-weight: bold; font-size: 2em">Let's move forward</h1></div>
+        <div><h1 style="font-weight: bold; font-size: 2em">Let's pay cashless</h1></div>
       </div>
       <div class="subtitle">
         <h2>Pay 'n Go is comming soon to you</h2>
       </div>
     </div>
   </div>
-  <div style="height: 100vh;margin-top: 70px;">
-    <%= cl_image_tag "Untitled-1_hntvpt.png", alt: "alttext" %>
+  <div class="image-phones" style="height: 100vh;margin-top: 70px; margin-bottom: 140px">
+    <%= cl_image_tag "Untitled-1_hntvpt.png", alt: "alttext", :height=>800, :crop=>"scale" %>
+  </div>
+  <div class="why-png-container" style="height: 100vh;margin-bottom: 70px">
+    <div class="why-png-tittle">
+      <h1 style="text-align: center; margin-top: 70px; margin-bottom: 0;">Why Pay 'n Go?</h1>
+    </div>
+    <div class="underline"></div>
+    <div class="why-png-content d-flex justify-content-between align-items-center" style="padding: 140px;">
+      <div class="info-why-png d-flex align-items-center flex-column">
+        <%= cl_image_tag "Easy_s3vz74.png", alt: "alttext", :width=>140, :crop=>"scale" %>
+        <p style="width: 223px;text-align: center;">Easy-to-use & to implement to your commerce</p>
+      </div>
+      <div class="info-why-png d-flex align-items-center flex-column">
+        <%= cl_image_tag "Cheap_llbdvn.png", alt: "alttext", :width=>140, :crop=>"scale" %>
+        <p style="width: 200px;text-align: center;">Affordable pricing for your needs</p>
+      </div>
+      <div class="info-why-png d-flex align-items-center flex-column">
+        <%= cl_image_tag "Secure_sf2aut.png", alt: "alttext", :width=>140, :crop=>"scale" %>
+        <p style="width: 200px;text-align: center;">Your data is secure with us</p>
+      </div>
+      <div class="info-why-png d-flex align-items-center flex-column">
+        <%= cl_image_tag "Suport_mpww1y.png", alt: "alttext", :width=>140, :crop=>"scale" %>
+        <p style="width: 200px;text-align: center;">We support you when you need us</p>
+      </div>
+    </div>
   </div>
 </div>
