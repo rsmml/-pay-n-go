@@ -42,4 +42,13 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  .why-png-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    row-gap: 40px;
+  }
+  .info-why-png{
+    width: 270px;
+  }
 }
