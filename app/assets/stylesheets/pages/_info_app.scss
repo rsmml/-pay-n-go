@@ -1,0 +1,51 @@
+// LEFT CARD
+
+.info-app-card-picture-left{
+  img {
+    border-radius: 200px 0 0 0;
+  }
+}
+.info-app-card-text-left{
+  height: 497px;
+  width: 543px;
+  text-align: end;
+  padding: 50px;
+  font-weight: normal;
+  color: white;
+  h1{
+    font-size: 32px;
+  }
+}
+.info-app-card-line-left{
+  border-top: 16px solid white;
+  width: 174px;
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+// RIGHT CARD
+
+.info-app-card-picture-right{
+  img {
+    border-radius: 0 200px 0 0;
+  }
+}
+.info-app-card-text-right{
+  height: 497px;
+  width: 543px;
+  text-align: start;
+  padding: 50px;
+  font-weight: normal;
+  color: white;
+  h1{
+    font-size: 32px;
+  }
+}
+.info-app-card-line-right{
+  border-top: 16px solid white;
+  width: 174px;
+  text-align: left;
+  margin: 0;
+}
+
+
