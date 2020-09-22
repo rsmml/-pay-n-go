@@ -46,9 +46,34 @@
   .image-phones-text{
     margin-bottom: 240px;
     margin-right:100px;
-    h1{
+    h1, h4{
       color: white;
       font-weight: bolder;
+    }
+    .phone-items{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin: 14px 0;
+      p{
+        color: white;
+        font-size: 32px;
+        margin-left: 20px;
+        margin-bottom: 0;
+      }
+      i{
+        color: white;
+        font-size: 32px;
+      }
+      .round-item{
+        background-color: #303f9f;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
 }
