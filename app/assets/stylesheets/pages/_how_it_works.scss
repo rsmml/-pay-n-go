@@ -1,0 +1,54 @@
+.hiw-container{
+  height: 85vh;
+  p{
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  .hiw-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-hiw{
+    background-image: image-url('hiw1');
+    height: 400px;
+    width: 240px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .second-hiw{
+    background-image: image-url('hiw2');
+    height: 400px;
+    width: 240px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .third-hiw{
+    background-image: image-url('hiw3');
+    height: 400px;
+    width: 240px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .fouth-hiw{
+    background-image: image-url('hiw4');
+    height: 400px;
+    width: 240px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
