@@ -14,9 +14,15 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 24px 60px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
     h1{
       font-weight: bolder;
     }
+  }
+  .title-hp{
+    margin: 160px 0 0 70px;
   }
   .btn-nav-bar{
     ul {
