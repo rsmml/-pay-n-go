@@ -10,6 +10,7 @@ html {
   background-size: cover;
   background-position: center;
   .nav-bar{
+    transition: 0.4s;
     display:  flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +21,10 @@ html {
     h1{
       font-weight: bolder;
     }
+  }
+  .nav-bar.active{
+    background-color: rgba(0,0,0,0.8);
+    padding: 0px 30px;
   }
   .title-hp{
     margin: 160px 0 0 70px;
