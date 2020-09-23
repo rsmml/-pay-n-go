@@ -10,10 +10,7 @@ html {
   background-size: cover;
   background-position: center;
   .nav-bar{
-    transition: 0.4s;
-    display:  flex;
-    justify-content: space-between;
-    align-items: center;
+    transition: 0.7s;
     padding: 24px 60px;
     position: fixed;
     top: 0;
@@ -112,4 +109,25 @@ html {
   .info-why-png{
     width: 270px;
   }
+}
+
+.contact-mail{
+  display: flex;
+  color: black;
+  width: max-content;
+  background-color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+    font-weight: bolder;
+  }
+}
+.contact-card{
+  display: none;
+  flex-direction: column;
+  align-items: end;
+  margin: 15% 40%;
 }

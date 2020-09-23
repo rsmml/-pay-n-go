@@ -28,10 +28,12 @@ import "bootstrap";
 
 // Internal imports, e.g:
 import { initNavBar } from '../components/navbar';
+import { initContactUs } from '../components/contact-us';
 
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   initNavBar();
+  initContactUs();
 });

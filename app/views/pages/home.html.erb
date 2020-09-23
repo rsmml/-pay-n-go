@@ -1,18 +1,29 @@
 <div class="main-container">
   <div class="landing-page-container" style="display: flex;flex-direction: column;justify-content: space-between;">
     <div class="nav-bar">
-      <div class="logo d-flex">
-        <div><%= cl_image_tag "icon_app_transp-01_wbb1xi.png", :width=>70, :crop=>"scale" %></div>
-        <h1 class="d-flex align-items-center" style="font-size: 2em;">Pay 'n Go</h1>
+      <div style="display: flex;align-items: center;justify-content: space-between;width: 100%;">
+        <div class="logo d-flex">
+          <div><%= cl_image_tag "icon_app_transp-01_wbb1xi.png", :width=>70, :crop=>"scale" %></div>
+          <h1 class="d-flex align-items-center" style="font-size: 2em;">Pay 'n Go</h1>
+        </div>
+        <div class="btn-nav-bar">
+          <ul>
+            <li><a href="#why-png">Why Pay 'n Go ?</a></li>
+            <li><a href="#hiw">How it works</a></li>
+            <li><a href="#info-app">Business</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#">Back to top</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="btn-nav-bar">
-        <ul>
-          <li><a href="#why-png">Why Pay 'n Go ?</a></li>
-          <li><a href="#hiw">How it works</a></li>
-          <li><a href="#info-app">Business</a></li>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#">Back to top</a></li>
-        </ul>
+      <div class="contact-card">
+        <div class="close-mail">
+          <i id="close" class="fas fa-times-circle" style="cursor: pointer;"></i>
+        </div>
+        <div class="contact-mail">
+          <i class="fas fa-paper-plane"></i>
+          <p style="margin-left: 24px;">contact@pay-ngo.de</p>
+        </div>
       </div>
     </div>
     <div class="title-hp">
