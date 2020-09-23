@@ -58,12 +58,13 @@ html {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  flex-direction: column;
   .image-phones-text{
-    margin-left: 56%;
+    position: relative;
+    left: 60%;
+    top: 26%;
+    position: relative;
+    right: 100px;
+    bottom: 30%;
     h1, h4{
       color: white;
       font-weight: bolder;
